@@ -6,15 +6,168 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Mosh Template</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="stylesheet" href="css/responsive.css">
 
 </head>
 
 <body>
+    <!-- header -->
+    <header class="header_area clearfix">
+        <div class="container-fluid">
+            <div class="row h-100">
+                <!-- Menu Area Start -->
+                <div class="col-12 h-100">
+                    <div class="menu_area h-100">
+                        <nav class="navbar h-100 navbar-expand-lg align-items-center">
+                            <!-- Logo -->
+                            <a class="navbar-brand" href="index.html"><img src="img/core-img/logo.png" alt="logo"></a>
+
+                            <!-- Menu Area -->
+                            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                data-target="#mosh-navbar" aria-controls="mosh-navbar" aria-expanded="false"
+                                aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+
+                            <div class="collapse navbar-collapse justify-content-end" id="mosh-navbar">
+                                <ul class="navbar-nav animated" id="nav">
+                                    <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="moshDropdown" role="button"
+                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages</a>
+                                        <div class="dropdown-menu" aria-labelledby="moshDropdown">
+                                            <a class="dropdown-item" href="index.html">Home</a>
+                                            <a class="dropdown-item" href="about.html">About Us</a>
+                                            <a class="dropdown-item" href="services.html">Services</a>
+                                            <a class="dropdown-item" href="portfolio.html">Portfolio</a>
+                                            <a class="dropdown-item" href="blog.html">Blog</a>
+                                            <a class="dropdown-item" href="contact.html">Contact</a>
+                                            <div class="dropdown-divider"></div>
+                                            <a class="dropdown-item" href="elements.html">Elements</a>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                                </ul>
+                                <!-- Search Form Area Start -->
+                                <div class="search-form-area animated">
+                                    <form action="#" method="post">
+                                        <input type="search" name="search" id="search"
+                                            placeholder="Type keywords &amp; hit enter">
+                                        <button type="submit" class="d-none"><img src="img/core-img/search-icon.png"
+                                                alt="Search"></button>
+                                    </form>
+                                </div>
+                                <!-- Search btn -->
+                                <div class="search-button">
+                                    <a href="#" id="search-btn"><img src="img/core-img/search-icon.png"
+                                            alt="Search"></a>
+                                </div>
+                                <!-- Login/Register btn -->
+                                <div class="login-register-btn">
+                                    <a href="#">Login</a>
+                                    <a href="#">/ Register</a>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!--  Welcome Area Start -->
+    <section class="welcome_area clearfix" id="home" style="background-image: url(img/bg-img/welcome-bg.png)">
+        <div class="hero-slides owl-carousel">
+            <!-- Single Hero Slides -->
+            <div class="single-hero-slide d-flex align-items-end justify-content-center">
+                <div class="hero-slide-content text-center">
+                    <h2>A Clean and Modern Template</h2>
+                    <h4>Get your freebie template now!</h4>
+                    <img class="slide-img" src="img/bg-img/device.png" alt="">
+                </div>
+            </div>
+            <!-- Single Hero Slides -->
+            <div class="single-hero-slide d-flex align-items-end justify-content-center">
+                <div class="hero-slide-content text-center">
+                    <h2>A Clean and Modern Template</h2>
+                    <h4>Get your freebie template now!</h4>
+                    <img class="slide-img" src="img/bg-img/device.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service area -->
+    <section class="mosh-service-area clearfix">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="mosh-service-slides owl-carousel">
+                        <!-- Single Service Area -->
+                        <div class="single-service-area text-center">
+                            <h2>01.</h2>
+                            <h4>No1 in Sales!</h4>
+                            <p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus
+                                blandit. Etiam nec odio vestibul.</p>
+                        </div>
+                        <!-- Single Service Area -->
+                        <div class="single-service-area text-center">
+                            <h2>02.</h2>
+                            <h4>Online Marketing</h4>
+                            <p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus
+                                blandit. Etiam nec odio vestibul.</p>
+                        </div>
+                        <!-- Single Service Area -->
+                        <div class="single-service-area text-center">
+                            <h2>03.</h2>
+                            <h4>Modern Design</h4>
+                            <p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus
+                                blandit. Etiam nec odio vestibul.</p>
+                        </div>
+                        <!-- Single Service Area -->
+                        <div class="single-service-area text-center">
+                            <h2>04.</h2>
+                            <h4>No1 in Sales!</h4>
+                            <p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus
+                                blandit. Etiam nec odio vestibul.</p>
+                        </div>
+                        <!-- Single Service Area -->
+                        <div class="single-service-area text-center">
+                            <h2>05.</h2>
+                            <h4>Online Marketing</h4>
+                            <p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus
+                                blandit. Etiam nec odio vestibul.</p>
+                        </div>
+                        <!-- Single Service Area -->
+                        <div class="single-service-area text-center">
+                            <h2>06.</h2>
+                            <h4>Modern Design</h4>
+                            <p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus
+                                blandit. Etiam nec odio vestibul.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Discover More btn -->
+                <div class="col-12 text-center mb-5 mt-5">
+                    <a href="#" class="btn btn-primary btn-lg">Discover More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
     <script type="text/JavaScript" src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/owl.carousel.js"></script>
     <script type="text/JavaScript" src="js/popper.min.js"></script>
     <script type="text/JavaScript" src="js/bootstrap.min.js"></script>
-    <script src="main.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
