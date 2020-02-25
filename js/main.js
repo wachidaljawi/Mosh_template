@@ -195,10 +195,6 @@ $('a[href="#"]').click(function ($) {
 
 var $window = $(window);
 
-/* if ($window.width() > 767) {
-    new WOW().init();
-} */
-
 $window.on('scroll', function () {
     if ($window.scrollTop() > 0) {
         $('.header_area').addClass('sticky');
@@ -207,8 +203,12 @@ $window.on('scroll', function () {
     }
 });
 
-$window.on('load', function () {
+/* $window.on('load', function () {
     $('#preloader').fadeOut('slow', function () {
         $(this).remove();
     });
-});
+}); */
+
+/* if ($window.width() > 767) {
+    new WOW().init();
+} */
