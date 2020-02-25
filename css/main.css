@@ -5,7 +5,7 @@
 
 body,
 html {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Simonetta', ;
 }
 
 h1,
@@ -14,7 +14,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Simonetta', ;
     font-weight: 700;
     color: #404551;
     line-height: 1.2;
@@ -35,7 +35,7 @@ li {
 }
 
 p {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Simonetta', ;
     color: #abadbe;
     font-size: 15px;
     font-weight: 500;
@@ -289,4 +289,76 @@ img {
 .client h2 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-bottom: 50px;
+}
+
+/* Mosh features area */
+.mosh-features-area {
+    background-color: #211b31;
+    position: relative;
+    z-index: 1;
+}
+
+.features-img>img {
+    width: 40%;
+    position: absolute;
+    bottom: -30px;
+    left: 30px;
+    z-index: 9;
+}
+
+.mosh-features-area .section-heading {
+    margin-bottom: 60px;
+}
+
+.mosh-features-area .section-heading p {
+    font-family: 'Nunito';
+    font-size: 20px;
+}
+
+.mosh-features-area .section-heading h2 {
+    color: #fff;
+}
+
+.barfiller {
+    background: #f4f4f4;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    height: 5px;
+    margin-bottom: 5px;
+    position: relative;
+    width: 100%;
+}
+
+.barfiller .fill {
+    display: block;
+    position: relative;
+    width: 0px;
+    height: 100%;
+    background: #4a7aec;
+    z-index: 1;
+}
+
+.barfiller .tipWrap {
+    display: none;
+}
+
+.barfiller .tip {
+    margin-top: -35px;
+    padding: 2px 4px;
+    font-size: 15px;
+    color: #4a7aec;
+    left: 0px;
+    position: absolute;
+    z-index: 2;
+    background: transparent;
+    font-weight: 500;
+}
+
+.barfiller .tip:after {
+    display: none;
+}
+
+.single_progress_bar p {
+    margin-bottom: 10px;
 }
