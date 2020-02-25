@@ -362,3 +362,28 @@ img {
 .single_progress_bar p {
     margin-bottom: 10px;
 }
+
+/* Service area more */
+.single-more-service-area {
+    flex: 0 0 25%;
+    max-width: 25%;
+    padding: 100px 20px;
+    position: relative;
+    z-index: 1;
+
+}
+
+.single-more-service-area:hover {
+    box-shadow: 0 10px 20px 10px rgba(0, 0, 0, 0.1);
+}
+
+.more-service-content>img {
+    margin-bottom: 40px;
+}
+
+.more-service-content>h4 {
+    margin-bottom: 30px;
+    text-transform: capitalize;
+}
+
+/* portofolio */
