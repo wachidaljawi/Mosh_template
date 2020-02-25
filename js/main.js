@@ -202,13 +202,3 @@ $window.on('scroll', function () {
         $('.header_area').removeClass('sticky');
     }
 });
-
-/* $window.on('load', function () {
-    $('#preloader').fadeOut('slow', function () {
-        $(this).remove();
-    });
-}); */
-
-/* if ($window.width() > 767) {
-    new WOW().init();
-} */
