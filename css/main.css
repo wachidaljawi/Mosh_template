@@ -387,3 +387,149 @@ img {
 }
 
 /* portofolio */
+.portfolio-menu {
+    margin-bottom: 40px;
+    margin-top: -10px;
+}
+
+.portfolio-menu>p {
+    display: inline-block;
+    padding: 0 15px;
+    cursor: pointer;
+    margin-bottom: 0;
+}
+
+.portfolio-menu>p:hover {
+    color: #4a7aec;
+}
+
+.single_gallery_item {
+    width: 25%;
+    display: inline-block;
+    z-index: 3;
+    position: relative;
+    overflow: hidden
+}
+
+.single_gallery_item>img {
+    width: 100%;
+
+}
+
+.gallery-hover-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+    left: 0;
+    top: 0;
+    background-color: #25499f;
+    opacity: 0;
+}
+
+.single_gallery_item:hover .gallery-hover-overlay {
+    opacity: 1;
+
+}
+
+.port-hover-text h4 {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.port-hover-text>a {
+    color: #fff;
+    font-size: 15px;
+}
+
+/* Workflow Project */
+.workflow-img {
+    position: relative;
+    z-index: -10;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.single-workflow-area h2 {
+    font-size: 16px;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 47px;
+    flex: 0 0 47px;
+    width: 47px !important;
+    height: 47px !important;
+    text-align: center;
+    background-color: #f3f5f9;
+    line-height: 47px;
+    border-radius: 50%;
+
+}
+
+.workflow-content h4 {
+    margin-bottom: 30px;
+}
+
+.single-workflow-area:hover h2 {
+    background-color: #4a7aec;
+    color: #fff;
+}
+
+.workflow-slides-area {
+    position: relative;
+    z-index: 99;
+    top: -100px;
+}
+
+.mosh-workflow-slides .owl-dots {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.mosh-workflow-slides .owl-dot {
+    background-color: #daddeb;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin: 0 4px;
+    display: inline-block;
+}
+
+.mosh-workflow-slides .owl-dot.active {
+    background-color: #4a7aec;
+}
+
+/* Link Contact Us */
+.mosh-link-contactus {
+    position: relative;
+    z-index: 1;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 300px;
+
+}
+
+.bg-overlay:after {
+    background-color: rgba(33, 27, 49, 0.88);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    content: '';
+    z-index: -1;
+    position: absolute;
+}
+
+.cta-content .section-heading {
+    margin-bottom: 0;
+}
+
+.cta-content .section-heading h2 {
+    margin-bottom: 40px;
+    color: #fff;
+    font-size: 44px;
+}
+
+.cta-content .section-heading p {
+    margin-top: 40px;
+    font-size: 30px;
+}
