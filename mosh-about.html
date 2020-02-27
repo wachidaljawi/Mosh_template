@@ -6,15 +6,187 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Mosh Template</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito|Simonetta&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
 
 </head>
 
 <body>
+    <!-- header -->
+    <header class="header_area">
+        <div class="container-fluid">
+            <div class="row h-100">
+                <!-- Menu Area Start -->
+                <div class="col-12 h-100">
+                    <div class="menu_area h-100">
+                        <nav class="navbar h-100 navbar-expand-lg align-items-center">
+                            <!-- Logo -->
+                            <a class="navbar-brand" href="mosh-index.html"><img src="img/core-img/logo.png"
+                                    alt="logo"></a>
+
+                            <!-- Menu Area -->
+                            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                data-target="#mosh-navbar" aria-controls="mosh-navbar" aria-expanded="false"
+                                aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+
+                            <div class="collapse navbar-collapse justify-content-end" id="mosh-navbar">
+                                <ul class="navbar-nav animated" id="nav">
+                                    <li class="nav-item active"><a class="nav-link" href="mosh-index.html">Home</a></li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="moshDropdown" role="button"
+                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages</a>
+                                        <div class="dropdown-menu" aria-labelledby="moshDropdown">
+                                            <a class="dropdown-item" href="mosh-index.html">Home</a>
+                                            <a class="dropdown-item" href="mosh-about.html">About Us</a>
+                                            <a class="dropdown-item" href="mosh-services.html">Services</a>
+                                            <a class="dropdown-item" href="#">Portfolio</a>
+                                            <a class="dropdown-item" href="#">Blog</a>
+                                            <a class="dropdown-item" href="#">Contact</a>
+                                            <div class="dropdown-divider"></div>
+                                            <a class="dropdown-item" href="elements.html">Elements</a>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item"><a class="nav-link" href="mosh-about.html">About Us</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="mosh-services.html">Services</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#">Portfolio</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                                </ul>
+                                <!-- Search Form Area Start -->
+                                <div class="search-form-area animated">
+                                    <form action="#" method="post">
+                                        <input type="search" name="search" id="search"
+                                            placeholder="Type keywords &amp; hit enter">
+                                        <button type="submit" class="d-none"><img src="img/core-img/search-icon.png"
+                                                alt="Search"></button>
+                                    </form>
+                                </div>
+                                <!-- Search btn -->
+                                <div class="search-button">
+                                    <a href="#" id="search-btn"><img src="img/core-img/search-icon.png"
+                                            alt="Search"></a>
+                                </div>
+                                <!-- Login/Register btn -->
+                                <div class="login-register-btn">
+                                    <a href="#">Login</a>
+                                    <a href="#">/ Register</a>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- first about us -->
+    <section class="first-aboutus" style="background-image: url(img/core-img/breadcumb.png);">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12">
+                    <h2>About Us</h2>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="mosh-index.html">Home</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Read Our History</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!--  first features -->
+    <section class="first-features">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-12">
+                    <p class="judul mb-1">features</p>
+                    <h1 class="tema mb-5" style="font-family: Simonetta;">
+                        What you get if you start your business with us
+                    </h1>
+                    <p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus blandit.
+                        Etiam nec odio vestibul. Etiam nec odio vestibulum est mat tis effic iturut magna. Pellentesque
+                        sit amet tellus blandit. Etiam nec odio ves tibul. Nec odio vestibulum est mattis effic iturut
+                        magna. Pellente sque sita met tellus blandit. Etiam nec odio. Etiam nec odio vestibulum est
+                        mattis effic iturut magna. Pellentesque sit am et tellus blandit. Etiam nec odio vestibul. Etiam
+                        nec odio vestibulum est mat tis effic iturut magna.
+                    </p>
+                    <button type="button" class="btn btn-primary btn-first-features">READ MORE</button>
+                </div>
+                <div class="col-sm-6 col-12">
+                    <img class="img-features1" data-aos="fade-left" data-aos-duration="2000"
+                        src="img/bg-img/headpiece.png" alt="gambar">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Second features -->
+    <section class="second-features">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4 col-12">
+                    <img class="img-features2" data-aos="fade-down-right" data-aos-duration="2000"
+                        src="img/bg-img/features-2.png" alt="gambar">
+                </div>
+                <div class="col-sm-8 col-12">
+                    <p class="judul2 mb-1">features</p>
+                    <h1 class="tema2 mb-5" style="font-family: Simonetta">Fun facts about the team and why people love
+                        us</h1>
+                    <div class="row" data-aos="zoom-in-right" data-aos-duration="2000">
+                        <div class="col-sm-1 col-6">
+                            <img src="img/core-img/settings-2.png" alt="gambar">
+                        </div>
+                        <div class="col-sm-5 col-6">
+                            <h5>A big team</h5>
+                            <p>Etiam nec odio vestibulum est mat tis effic iturut magna.</p>
+                        </div>
+                        <div class="col-sm-1 col-6">
+                            <img src="img/core-img/photo-camera.png" alt="gambar">
+                        </div>
+                        <div class="col-sm-5 col-6">
+                            <h5>Photo enthuziast</h5>
+                            <p>Etiam nec odio vestibulum est mat tis effic iturut magna.</p>
+                        </div>
+                    </div>
+                    <div class="row" data-aos="zoom-in-left" data-aos-duration="2000">
+                        <div class="col-sm-1 col-6">
+                            <img src="img/core-img/like.png" alt="gambar">
+                        </div>
+                        <div class="col-sm-5 col-6">
+                            <h5>30K Followers</h5>
+                            <p>Etiam nec odio vestibulum est mat tis effic iturut magna.</p>
+                        </div>
+                        <div class="col-sm-1 col-6">
+                            <img src="img/core-img/gamepad.png" alt="gambar">
+                        </div>
+                        <div class="col-sm-5 col-6">
+                            <h5>We love gaming</h5>
+                            <p>Etiam nec odio vestibulum est mat tis effic iturut magna.</p>
+                        </div>
+                    </div>
+                    <button type="button" class="btn btn-primary btn-first-features">READ MORE</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- third features -->
+
     <script type="text/JavaScript" src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script type="text/JavaScript" src="js/popper.min.js"></script>
     <script type="text/JavaScript" src="js/bootstrap.min.js"></script>
-    <script src="main.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
