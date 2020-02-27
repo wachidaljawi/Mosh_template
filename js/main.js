@@ -199,4 +199,18 @@ $window.on('scroll', function () {
     }
 });
 
+$(window).scroll(function () {
+    if ($(this).scrollTop() > 200) {
+        $('#top-nav').fadeIn();
+    } else {
+        $('#top-nav').fadeOut();
+    }
+});
+
+$('#top-nav').hide().click(function () {
+    $('html, body').animate({
+        scrollTop: 0
+    }, 2000);
+    return false;
+});
 AOS.init();
