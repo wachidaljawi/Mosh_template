@@ -189,10 +189,6 @@ if ($.fn.counterUp) {
     });
 }
 
-$('a[href="#"]').click(function ($) {
-    $.preventDefault()
-});
-
 var $window = $(window);
 
 $window.on('scroll', function () {
@@ -202,3 +198,5 @@ $window.on('scroll', function () {
         $('.header_area').removeClass('sticky');
     }
 });
+
+AOS.init();
