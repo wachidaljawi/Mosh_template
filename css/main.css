@@ -697,3 +697,120 @@ img {
 }
 
 /* third features */
+.third-features {
+    background-color: #25499f;
+}
+
+.judul3 {
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-family: "Simonetta";
+    margin-top: 60px;
+}
+
+#img-ceo {
+    height: 50px;
+    width: 50px;
+}
+
+.ceo-meta-data .ceo-thumb {
+    width: 52px;
+    height: 52px;
+    flex: 0 0 52px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.ceo-meta-data .ceo-name h6 {
+    color: #fff;
+    margin-bottom: 10px;
+    line-height: 1;
+}
+
+.ceo-meta-data .ceo-name p {
+    margin-bottom: 0;
+    line-height: 1;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+/* incridibel team */
+.team-thumbnail {
+    width: 189px;
+    height: 189px;
+    border-radius: 50%;
+    margin: 0 auto 50px;
+    position: relative;
+    z-index: 1;
+}
+
+.team-thumbnail img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.team-meta-info {
+    margin-bottom: 50px;
+}
+
+.team-meta-info h4 {
+    line-height: 1;
+    margin-bottom: 10px;
+}
+
+.team-meta-info span {
+    font-size: 12px;
+    font-weight: 900;
+    color: #abadbe;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+    display: block;
+}
+
+.team-social-info {
+    margin-top: 30px;
+}
+
+.team-social-info>a {
+    font-size: 13px;
+    color: #abadbe;
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.single-team-slide:hover .team-meta-info span,
+.team-social-info>a:hover {
+    color: #4a7aec;
+}
+
+.single-team-slide:hover .team-thumbnail:after {
+    opacity: 1;
+}
+
+.mosh-team-slides {
+    position: relative;
+    z-index: 2;
+}
+
+.mosh-team-slides .owl-prev,
+.mosh-team-slides .owl-next {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-color: transparent;
+    line-height: 60px;
+    text-align: center;
+    top: 21%;
+    margin-top: -30px;
+    left: -25px;
+    border-radius: 50%;
+    color: #a2baff;
+}
+
+.mosh-team-slides .owl-next {
+    left: auto;
+    right: -25px;
+}
