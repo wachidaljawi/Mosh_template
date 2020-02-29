@@ -6,15 +6,225 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Mosh Template</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito|Simonetta&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
 
 </head>
 
 <body>
+    <!-- header -->
+    <header class="header_area">
+        <div class="container-fluid">
+            <div class="row h-100">
+                <!-- Menu Area Start -->
+                <div class="col-12 h-100">
+                    <div class="menu_area h-100">
+                        <nav class="navbar h-100 navbar-expand-lg align-items-center">
+                            <!-- Logo -->
+                            <a class="navbar-brand" href="mosh-index.html"><img src="img/core-img/logo.png"
+                                    alt="logo"></a>
+
+                            <!-- Menu Area -->
+                            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                data-target="#mosh-navbar" aria-controls="mosh-navbar" aria-expanded="false"
+                                aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+
+                            <div class="collapse navbar-collapse justify-content-end" id="mosh-navbar">
+                                <ul class="navbar-nav animated" id="nav">
+                                    <li class="nav-item active"><a class="nav-link" href="mosh-index.html">Home</a></li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="moshDropdown" role="button"
+                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages</a>
+                                        <div class="dropdown-menu" aria-labelledby="moshDropdown">
+                                            <a class="dropdown-item" href="mosh-index.html">Home</a>
+                                            <a class="dropdown-item" href="mosh-about.html">About Us</a>
+                                            <a class="dropdown-item" href="mosh-services.html">Services</a>
+                                            <a class="dropdown-item" href="#">Portfolio</a>
+                                            <a class="dropdown-item" href="#">Blog</a>
+                                            <a class="dropdown-item" href="#">Contact</a>
+                                            <div class="dropdown-divider"></div>
+                                            <a class="dropdown-item" href="elements.html">Elements</a>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item"><a class="nav-link" href="mosh-about.html">About Us</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="mosh-services.html">Services</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#">Portfolio</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                                </ul>
+                                <!-- Search Form Area Start -->
+                                <div class="search-form-area animated">
+                                    <form action="#" method="post">
+                                        <input type="search" name="search" id="search"
+                                            placeholder="Type keywords &amp; hit enter">
+                                        <button type="submit" class="d-none"><img src="img/core-img/search-icon.png"
+                                                alt="Search"></button>
+                                    </form>
+                                </div>
+                                <!-- Search btn -->
+                                <div class="search-button">
+                                    <a href="#" id="search-btn"><img src="img/core-img/search-icon.png"
+                                            alt="Search"></a>
+                                </div>
+                                <!-- Login/Register btn -->
+                                <div class="login-register-btn">
+                                    <a href="#">Login</a>
+                                    <a href="#">/ Register</a>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- tema services -->
+    <section class="tema-services" style="background-image: url(img/core-img/breadcumb.png);">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12">
+                    <h2>Services</h2>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="mosh-index.html">Home</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">What we offer</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- mosh services -->
+    <section class="mosh-services">
+        <div class="container">
+            <div class="row first-services mt-5">
+                <div class="col-sm-4 col-12">
+                    <div class="mosh-services-area d-flex">
+                        <div class="services-icon">
+                            <img src="img/core-img/trophy.png" alt="">
+                        </div>
+                        <div class="services-content ml-4">
+                            <h4>No1 in Sales!</h4>
+                            <p>Nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-12">
+                    <div class="mosh-services-area d-flex">
+                        <div class="services-icon">
+                            <img src="img/core-img/edit.png" alt="">
+                        </div>
+                        <div class="services-content ml-3">
+                            <h4>Documentation inside</h4>
+                            <p>Etiam nec odio vestibulum est mat tis effic iturut magna.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-12">
+                    <div class="mosh-services-area d-flex">
+                        <div class="services-icon">
+                            <img src="img/core-img/video-camera.png" alt="">
+                        </div>
+                        <div class="services-content ml-3">
+                            <h4>Modern Design</h4>
+                            <p>Etiam nec odio vestibulum est mat tis effic iturut magna.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row second-services mt-5">
+                <div class="col-sm-4 col-12">
+                    <div class="mosh-services-area d-flex">
+                        <div class="services-icon">
+                            <img src="img/core-img/presentation.png" alt="">
+                        </div>
+                        <div class="services-content ml-3">
+                            <h4>Marketing Strategist</h4>
+                            <p>Etiam nec odio vestibulum est mat tis effic iturut magna.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-12">
+                    <div class="mosh-services-area d-flex">
+                        <div class="services-icon">
+                            <img src="img/core-img/gamepad.png" alt="">
+                        </div>
+                        <div class="services-content ml-3">
+                            <h4>Play with colors</h4>
+                            <p>Etiam nec odio vestibulum est mat tis effic iturut magna.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-12">
+                    <div class="mosh-services-area d-flex">
+                        <div class="services-icon">
+                            <img src="img/core-img/atomic.png" alt="">
+                        </div>
+                        <div class="services-content ml-3">
+                            <h4>Mix &amp; Match</h4>
+                            <p>Etiam nec odio vestibulum est mat tis effic iturut magna.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row third-services mt-5">
+                <div class="col-sm-4 col-12">
+                    <div class="mosh-services-area d-flex">
+                        <div class="services-icon">
+                            <img src="img/core-img/safebox.png" alt="">
+                        </div>
+                        <div class="services-content ml-3">
+                            <h4>Worth the money</h4>
+                            <p>Etiam nec odio vestibulum est mat tis effic iturut magna.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-12">
+                    <div class="mosh-services-area d-flex">
+                        <div class="services-icon">
+                            <img src="img/core-img/settings-2.png" alt="">
+                        </div>
+                        <div class="services-content ml-4">
+                            <h4>Modern elements</h4>
+                            <p>Etiam nec odio vestibulum est mat tis effic iturut magna.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-12">
+                    <div class="mosh-services-area d-flex">
+                        <div class="services-icon">
+                            <img src="img/core-img/alarm-clock.png" alt="">
+                        </div>
+                        <div class="services-content ml-3">
+                            <h4>24 Hours support</h4>
+                            <p>Etiam nec odio vestibulum est mat tis effic iturut magna.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row button-services">
+                <div class="col-12 text-center mb-5">
+                    <button type="button" class="btn btn-primary btn-mosh-services mt-5">READ MORE</button>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
     <script type="text/JavaScript" src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script type="text/JavaScript" src="js/popper.min.js"></script>
     <script type="text/JavaScript" src="js/bootstrap.min.js"></script>
-    <script src="main.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>

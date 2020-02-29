@@ -624,7 +624,8 @@ img {
 }
 
 /* Mosh-about (first about us) */
-.first-aboutus {
+.first-aboutus,
+.tema-services {
     height: 500px;
     width: 100%;
     position: relative;
@@ -890,4 +891,24 @@ img {
     content: '';
     z-index: -1;
     position: absolute;
+}
+
+/* tema services */
+.tema-services h2 {
+    color: ghostwhite;
+    margin-top: 150px;
+    font-size: 60px;
+}
+
+/* mosh services */
+.btn-mosh-services {
+    background-color: #25499f;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    align-items: center;
+}
+
+.btn-mosh-services:hover {
+    background-color: #4a7aec;
 }
