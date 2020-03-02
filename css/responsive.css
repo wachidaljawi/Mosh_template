@@ -108,8 +108,10 @@
         font-size: 13px;
     }
 
-    .mosh-cool-facts-area .counter-area>h3 {
+    .noted-services .isi-noted h3 {
         font-size: 40px;
+        margin-top: 10px;
+
     }
 }
 
@@ -296,8 +298,9 @@
         font-size: 13px;
     }
 
-    .mosh-cool-facts-area .counter-area>h3 {
+    .noted-services .isi-noted h3 {
         font-size: 20px;
+        margin-top: 10px;
     }
 
     .testimonials-slides:after {

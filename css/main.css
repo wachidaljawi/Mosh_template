@@ -912,3 +912,122 @@ img {
 .btn-mosh-services:hover {
     background-color: #4a7aec;
 }
+
+/* testimonials services */
+.testimonials-services {
+    background-color: #211b31;
+    position: relative;
+}
+
+.testimonials-services .section-heading h2 {
+    color: #fff;
+}
+
+.testimonial-content span {
+    font-size: 60px;
+    color: #fff;
+    line-height: 1;
+    font-weight: 900;
+}
+
+.testimonial-content p {
+    margin-bottom: 0;
+}
+
+.testimonials-meta .testimonial-thumb img {
+    width: 52px;
+    height: 52px;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+    border: 3px solid #211b31;
+    position: relative;
+    z-index: 1;
+    margin-top: 40px;
+}
+
+.testimonials-meta h6 {
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 5px;
+}
+
+.testimonials-meta p {
+    margin-bottom: 0;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.testimonials-slides {
+    position: relative;
+}
+
+.testimonials-slides:before {
+    position: absolute;
+    width: 33.33333%;
+    text-align: center;
+    content: "Previous";
+    top: 0;
+    left: 0;
+    height: 100%;
+    color: #fff;
+}
+
+.testimonials-slides:after {
+    position: absolute;
+    width: 33.33333%;
+    text-align: center;
+    content: "Next";
+    top: 0;
+    right: 0;
+    height: 100%;
+    color: #fff;
+}
+
+.testimonials-slides .owl-prev,
+.testimonials-slides .owl-next {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-color: transparent;
+    line-height: 60px;
+    text-align: center;
+    top: 21%;
+    margin-top: -30px;
+    left: -25px;
+    border-radius: 50%;
+    color: #a2baff;
+}
+
+.testimonials-slides .owl-next {
+    left: auto;
+    right: -25px;
+}
+
+.testimonials-slides .single-testimonial-area .testimonial-content {
+    display: none;
+}
+
+.testimonials-slides .center .single-testimonial-area .testimonial-content {
+    display: block;
+}
+
+/* noted services */
+.noted-services {
+    width: 100%;
+    position: relative;
+    height: 500px;
+}
+
+.row-noted .isi-noted .inti-noted {
+    margin-top: 100px;
+}
+
+.row-noted .isi-noted h3 {
+    font-size: 60px;
+}
+
+.noted-services h3,
+.noted-services p {
+    color: ghostwhite;
+}
